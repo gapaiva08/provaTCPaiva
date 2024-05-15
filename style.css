@@ -1,0 +1,99 @@
+  header
+  {
+    width: 100%;
+    background-color: #2cf1d1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+  }
+  .list1
+  {
+    display: flex;
+    background-color:#2cf1d1;
+    color: rgb(19, 18, 18);
+    justify-content: center;
+  }
+
+  .list1 li
+  {
+
+    font-size: 32px;
+    margin: 1rem;
+  }
+
+  .lista2
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .lista2 li
+  {
+
+    justify-content: center;
+    line-height: 20px;
+    max-width: 500px;
+  }
+
+  .quadrado
+  {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+input
+{
+  height: 50px;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+  ul
+  {
+    list-style-type: none;
+  }
+
+  .banner
+  {
+    background-image: url(rio.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(rio.avif);
+  }
+  .banner img
+  {
+    width: 100%;
+  }
+
+
+
+  footer {
+    background-color: #2cf1d1;
+    color: #000000;
+    text-align: center;
+    padding: 50px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
